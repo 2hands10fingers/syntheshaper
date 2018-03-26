@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SYNTHESHAPER</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="js/matter.min.js" type="text/javascript"></script>
+  <script src="js/tone.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <h1>SYNTHESHAPER</h1>
+  <div class="anim-space">
+    <!-- ANIMATION SPACE -->
+    <div id="anim-inner">
+      <script src="js/main.js" type="text/javascript"></script>
+    </div>
+  </div>
+  <div class= "synth-contain">
+    <!-- KEYS -->
+    <div id="keys-container">
+      <div id="keys">
+        <div class="blackkeys">
+          <button id="blacknote" type="button" name="button" onclick="playNote('C#4');"></button>
+          <button id="blacknote" type="button" name="button" onclick="playNote('D#4');"></button>
+          <div class="blackkeysNext">
+            <button id="blacknote"  type="button" name="button" onclick="playNote('F#4');"></button>
+            <button id="blacknote"  type="button" name="button" onclick="playNote('G#4');"></button>
+            <button id="blacknote"  type="button" name="button" onclick="playNote('A#4');"></button>
+          </div>
+        </div>
+        <div class="whitekeys">
+          <button id="note" type="button" name="button" onclick="playNote('C4');"></button>
+          <button id="note" type="button" name="button" onclick="playNote('D4');"></button>
+          <button id="note" type="button" name="button" onclick="playNote('E4');"></button>
+          <button id="note" type="button" name="button" onclick="playNote('F4');"></button>
+          <button id="note" type="button" name="button" onclick="playNote('G4');"></button>
+          <button id="note" type="button" name="button" onclick="playNote('A4');"></button>
+          <button id="note" type="button" name="button" onclick="playNote('B4');"></button>
+          <button id="note" type="button" name="button" onclick="playNote('C5');"></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

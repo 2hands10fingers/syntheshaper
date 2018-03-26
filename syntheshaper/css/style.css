@@ -1,0 +1,107 @@
+/*
+#F9F490 - light yellow
+#603807 - brown
+#F3D31E - banana yellow
+#D89C11 - orange
+#BA8014 - bornage
+KEY COLORSSSSSS*/
+
+body {
+  /*background:#D89C11;*/
+  background: url('../img/pinkdust.png');
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+
+p {
+  color: white;
+  margin-top: 5px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+h1 {
+      display: block;
+    text-align: center;
+    /* letter-spacing: 45px; */
+    margin: 4rem auto 0 2rem;
+    letter-spacing: 43px;
+    font-weight: 300;
+    color: indianred;
+    font-family: sans-serif;
+}
+
+.synth-contain {
+  display: flex;
+  justify-content: center;
+}
+
+#keys-container { display: block; margin: 0 auto; }
+
+
+canvas {
+    border-radius: 430px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 95%;
+    height: 440px;
+    background-color: #2d7578 !important;
+    border: 1px solid ghostwhite;
+}
+/* S Y N T H */
+
+
+#keys {
+    margin-top: 15px;
+    width: 213px;
+    padding: 0.5rem 1.5rem;
+    float: left;
+    height: 118px;
+    border-radius: 19px;
+    margin-bottom: 5rem;
+    background-color: darkgoldenrod;
+}
+
+
+.whitekeys {
+  width: 350px;
+  margin-top: 50px;
+}
+
+.blackkeys {
+width: 350px;
+margin-left: 15px;
+}
+
+.blackkeysNext {
+  display: block;
+  margin-left: 80px;
+}
+
+#note {
+  background: white;
+  width: 25px;
+  height: 50px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  margin-left: 2px;
+  float: left;
+  display: inline-block;
+}
+
+#blacknote {
+  background: black;
+  width: 25px;
+  height: 50px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  margin-left: 1px;
+  float: left;
+  display: inline-block;
+}
